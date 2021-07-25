@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+
+header{
+    background-image: url(img/code.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar{
+    background:silver;
+    padding:15px;
+    opacity: 0.6;
+}
+.nav-item{
+    margin-right: 10px;
+
+}
+
+.nav-item:hover{
+   transition: 0.5s;
+   border-radius: 7px;
+   box-shadow: 3px 2px 3px;
+
+}
+.nav-link:hover{
+    color:crimson;
+    box-shadow: 3px 4px 3px;
+}
+
+.nav-link{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.banner-heading{
+    background: silver;
+    width:400px;
+    margin: auto;
+    display: block;
+    margin-top: 170px;
+    padding:10px;
+    opacity: 0.5;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 27px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.ban-btn{
+    width:330px;
+    margin: auto;
+}
+.banner-btn{
+    width: 150px;
+    margin: auto;
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.banner-btn i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.banner-btn:hover i{
+    color:crimson
+}
+
+#about{
+    background:rgb(148, 146, 146);
+}
+.about-content{
+    border:2px solid gray;
+    padding: 40px 10px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom:20px
+}
+.about-content:hover{
+    box-shadow: 4px 3px 4px;
+    transition: 0.3s;
+}
+.about-link{
+    color:rgb(131, 20, 42)
+}
+.about-icon{
+    background: black;
+    color:thistle;
+    padding:15px;
+    border-radius: 90%;
+    font-size: 30px;
+}
+
+.about-row{
+    padding:60px
+}
+
+
+#about-me{
+    background: rgb(85, 115, 128);
+}
+
+hr{
+    border:5px dotted black;
+    border-bottom: none;
+    width:60px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: none;
+}
+
+.about-me-row{
+    padding: 60px;
+}
+.my-info{
+    border: 2px solid cyan;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.about-me-icon{
+
+    width:60px;
+    font-size: 30px;
+    background:tomato ;
+    color: thistle;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+    
+#tutorial{
+    background: lightblue;
+}
+
+.tutorial-row{
+    padding:60px
+}
+.card:hover{
+    box-shadow: 7px 7px 6px;
+    transition: 0.3s;
+}
+.card-body{
+    background: mistyrose;
+}
+.card-title h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 7px;
+}
+
+.carousel{
+    background:silver
+}
+
+.feedback-title{
+    font-family: arial black;
+}
+
+.feedback-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.feedback-footer{
+    font-size: 20px;
+}
+.feedback-img{
+    border-radius: 90%;
+}
+#contact{
+    background: mistyrose;
+}
+
+form{
+    padding: 20px 70px
+}
+.form-control{
+    background: turquoise;
+    opacity: 0.5;
+    color:black;
+    font-weight: bold;
+}
+.footer-nav{
+    background: black;
+    opacity: 1;
+}
+.footer-menu-icon{
+    color:crimson
+}
+.footer-icon{
+    color:cyan
+}
+.footer-icon:hover{
+    color:crimson
+}
